@@ -1,5 +1,5 @@
 - 👋 Hi, I’m kaleab erdachew ayele 
-- 👀 I’m interested in developing apps or clients using python
+- 👀 I’m interested in developing apps for clients using python
 - 🌱 I’m currently learning soft-ware enginnering in university of jimma 
 - 💞️ I’m looking to collaborate on projects working with python and mainly focused on AI apps
 - 
