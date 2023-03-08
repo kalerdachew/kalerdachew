@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<article class="media content-section">
+  <img class="rounded-ciricle article-img" src="{{article.reporter.profile.image.url}}">
+    <div class="media-body">
+      <div class="article-metadata">
+        <p class="mr-2">{{ object.Title }}</p>
+        <small class="text-muted">{{ object.date }}</small>
+      </div>
+      <p class="article-content">by {{ object.reporter }}</p>
+    </div>
+  </article>
+{% endblock  %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for article in articles %}
+<article class="media content-section">
+  <img class="rounded-ciricle article-img" src="{{article.reporter.profile.image.url}}"></img>
+    <div class="media-body">
+      <div class="article-metadata">
+        <a class="mr-2" href="{% url 'magazine_detail' article.id %}">{{ article.Title }}</a>
+        <small class="text-muted">{{ article.date }}</small>
+      </div>
+      <p class="article-content">by {{ article.reporter }}</p>
+    </div>
+  </article>
+{% endfor %}
+{% endblock  %}
